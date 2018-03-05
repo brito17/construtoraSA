@@ -153,7 +153,9 @@ class Locacao(models.Model):
     veiculo = models.ManyToManyField(Veiculo)
     cliente = models.ForeignKey(Cliente)
 
-    
+
+
+
 
 class Produto(models.Model):
     class Meta:
